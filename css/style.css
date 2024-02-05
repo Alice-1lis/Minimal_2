@@ -1,0 +1,1043 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.eot');
+    src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('../fonts/Montserrat-Regular.woff') format('woff'),
+        url('../fonts/Montserrat-Regular.ttf') format('truetype'),
+        url('../fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Vollkorn';
+    src: url('../fonts/Vollkorn-Italic.eot');
+    src: url('../fonts/Vollkorn-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Vollkorn-Italic.woff2') format('woff2'),
+        url('../fonts/Vollkorn-Italic.woff') format('woff'),
+        url('../fonts/Vollkorn-Italic.ttf') format('truetype'),
+        url('../fonts/Vollkorn-Italic.svg#Vollkorn-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    padding: 18px 0;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color:#FFF;
+}
+
+.container_header{
+    max-width: 940px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#navbar{
+    list-style: none;
+    display: flex;
+}
+
+.item{
+    margin-left: 34px;
+}
+
+.item_links{
+    font-family: "Montserrat", serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #404040;
+    text-decoration: none;
+}
+.fa-brands{
+    color: gray;
+    font-size: 80px;
+    position: absolute;
+    left:-1px;
+    top: 190px;
+
+}
+
+
+.main_banner{
+    min-height: 391px;
+    background-image: url("../images/IMAGE.jpg");
+    background-size: cover;
+    display: flex;
+
+}
+.container{
+    max-width: 940px;
+    margin: auto;
+    justify-content: space-between;
+}
+.main_banner h1{
+    color: #FFF;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 55px;
+    text-transform: uppercase;
+    }
+.main_banner p{
+    color: rgba(255, 255, 255, 0.81);
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 225px;
+    margin: auto;
+}
+.main_banner h1:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background-color: #FFFFFF;
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.main_banner_description{
+    background-color:  #FEFEC9;
+    padding-bottom: 59px;
+    padding-top: 34px;
+    text-align: center;
+}
+
+.main_banner_description p{
+    color: #47474F;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 39px;
+    padding-top: 60px;
+}
+
+.main_banner_description a{
+    color: #47474F;
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    display: inline-block;
+    padding: 13px 34px 20px;
+    border: solid 1px #47474F;
+    border-bottom: solid 2px #47474F;
+    text-decoration: none;
+    
+}
+
+.main_banner_description a:hover{
+        transform: rotate(360deg);
+        transition: 5s;
+        background-color: rgb(41, 87, 41);
+    }
+
+
+.brands{
+    margin-top: 69px;
+    margin-bottom: 69px;
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+   
+}
+
+
+.container .d_flex{
+    flex-wrap: wrap;
+
+}
+
+
+
+
+.brands h2{
+
+    color: #333;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-top: 69px;
+    margin-bottom: 74px;
+}
+.brands h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 25px;
+}
+
+.container{
+    max-width: 940px;
+    margin: auto;
+    
+    
+}
+
+.brands article{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    
+}
+
+
+
+.brands_images{
+    background-image: url("../images/Frame.jpg");
+    width: 300px;
+    height: 219px;
+    width: 100%;
+   
+}
+
+
+
+.brands_images1{
+    background-image: url("../images/Frame1.jpg");
+    width: 300px;
+    height: 219px;
+    width: 100%;
+}
+
+.brands_images2{
+    background-image: url("../images/Frame2.jpg");
+    width: 300px;
+    height: 219px;
+    width: 100%;
+}
+
+
+
+.brands h4{
+    color: #333;
+    font-family: "Montserrat" serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 38px 0 20px 0;
+}
+
+.brands p{
+   
+    color: #333;
+    font-family: "Vollkorn" serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+.fa-solid{
+    font-size: 50px;
+    color: gray;
+}
+
+.owl-nav .owl-prev:before{
+    content: "\f053";
+    position: absolute;
+    left: -15px;
+    color: gray;
+    display: display-block;
+    font-family: "Font Awesome 6 Free";
+    font-size: 50px;
+    font-weight: 900;
+    top: 8px;
+    padding-left: 18px;
+   
+}
+
+.owl-nav .owl-next:before{
+    content: "\f053";
+    position: absolute;
+    color: gray;
+    right: 0px;
+    display: display-block;
+    font-family: "Font Awesome 6 Free";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    top: 8px;
+    padding-right: 18px;
+    transform: rotate(180deg);
+}
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dots .owl-dot span{
+display: inline-block;
+width: 10px;
+height: 10px;
+margin: 5px;
+background-color: red;
+border-radius: 50%;
+}
+.owl-dots .owl-dot.active span{
+background-color: yellowgreen ;
+}
+
+
+
+
+.resent_project{
+    background: #F5F5F5;
+    padding-bottom: 69px;
+
+    
+}
+
+.container{
+    margin-top: 119px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 68px;
+    
+}
+
+.container .d_flex{
+    flex-wrap: wrap;
+}
+
+.resent_project h2{
+    color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-top: 79px;
+    padding-bottom: 28px;
+
+
+
+}
+
+
+
+
+.resent_project h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    
+   
+}
+
+.resent_img{
+    width: 300px;
+    height: 300px;
+    display: block;
+}
+
+
+
+
+
+.resent_project article{
+    background: #FFFF;
+    max-width: 300px;
+    margin-bottom: 20px;
+
+}
+
+.resent_project h4{
+color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+padding-top: 19px;
+padding-bottom: 4px;
+}
+
+
+.resent_project p{
+color: #333;
+text-align: center;
+font-family: Vollkorn;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+padding-bottom: 21px;
+}
+ 
+
+.team{
+    max-width: 940px;
+    margin: auto;
+    background-color: #FFF;
+    margin-top: 68px;
+    padding-bottom: 69px;
+    flex-wrap: wrap;
+    
+}
+
+.team .container{
+    box-sizing: border-box;
+    max-width: 940px;
+}
+
+
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+}
+
+.team_img{
+    width: 220px;
+    height: 220px;
+  }  
+
+
+.team h2{
+    color: #333;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.team h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 43px;
+}
+
+.team h3{
+    color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 19px;
+    padding-bottom: 4px;
+
+}
+
+.team h4{
+    color: #333;
+    text-align: center;
+    font-family: 'Vollkorn';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding-top: 19px;
+    padding-bottom: 18px;
+}
+
+
+
+.team article{
+    max-width: 240px;
+    display: block;
+    flex-wrap: wrap;
+    height: 339px;
+}
+
+
+
+.team_icon{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    margin: auto;
+    
+}
+
+.team_icon_3{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 170px;
+}
+
+.team_icon li{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+
+    
+}  
+    
+
+
+.team article a{
+    
+
+    margin: auto;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
+
+.elexis_corp{
+    background-color: #F5F5F5;
+   padding-bottom: 68px;
+    padding-top: 69px;
+    box-sizing: border-box;
+    min-height: 511px;
+}
+
+.container_elexis{
+    max-width: 940px;
+    height: 373px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+    
+}
+
+.container_elexis p{
+    color: #333;
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    width: 338px;
+    height: 99px;
+    padding-bottom: 24px;
+    padding-top: 28px;
+}
+
+.container_elexis h4{
+    color: #ABABAB;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    
+}
+
+.container_elexis img{
+    width: 64px;
+    height: 64px;
+    align-items: center;
+    
+    padding-bottom: 29px;
+}
+
+
+.kolo{
+    padding-top: 36px;
+}
+
+
+
+
+.get_in_touch{
+    background-image: url();
+    background-color: #7EC4BD;
+    height: 517px;
+    padding-bottom: 70px;
+}
+
+.get_in_touch .container_d_flex{
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+     max-width: 940px;
+     height: 379px;
+     box-sizing: border-box;
+     text-align: center;
+     
+}
+
+
+
+
+.get_in_touch h2{
+    color: #333;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-top: 79px;
+    padding-bottom: 28px;
+    width: 245px;
+    text-align: center;
+    margin: auto;
+}
+
+.get_in_touch article{
+    margin-bottom: 5px;
+    padding-top: 42px;
+    width: 300px;
+    height: 238 260 238px;
+    
+}
+
+.get_in_touch h2:after{
+    content: "";
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.09);
+    margin: auto;
+    margin-top: 28px;
+    margin-bottom: 42px;
+   
+}
+
+.get_in_touch p{
+    color: #212121;
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.get_in_touch a{
+    display: block;
+    color: #212121;
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    padding-bottom: 5px;
+}
+
+.get_in_touch .svg{
+padding-right: 9px;
+}
+
+
+
+
+.get_in_touch h4{
+    padding-bottom: 20px;
+    padding-top: 26px;
+    margin: auto;
+    color: #333;
+text-align: center;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+    
+}
+
+.get_in_touch .pictures{
+    width: 44px;
+    height: 65px;
+}
+
+.get_in_touch .pictures_envelope{
+    width: 70px;
+    height: 50px;
+}
+
+.get_in_touch .pictures_heart{
+    width: 68px;
+    height: 56px;
+}
+
+
+
+
+
+.faq{
+    background-color: gray;
+    padding: 70px 0;
+}
+    
+.faq .container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+    text-align: left;
+    margin: auto;
+}
+
+.faq .text{
+    max-width: 300px;
+    box-sizing: border-box;
+    text-align: left;
+    margin:auto
+}
+
+.faq .accordion{
+    max-width: 400px;
+
+}
+
+.faq .accordion p{
+    color: #333;
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 18px;
+}
+
+
+
+.faq .text h3{
+    color: #FFFF;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.faq .text p{
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 0px;
+    margin: auto;
+    display: flex;
+    color: #FFFF;
+    max-height: 200px;    
+}
+
+
+.ui-accordion .ui-accordion-header {
+    background: #FFFFFF;
+    border: 1px solid #E3E8EF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0,05);
+    border-radius: 8px;
+    padding: 23px 25px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #202939;
+    margin-bottom: 16px;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    margin-bottom: 0px;
+    border-radius: 8px 8px 0 0;
+}
+.ui-accordion .ui-accordion-content{
+    margin-bottom: 16px;
+    border-radius: 0 0 8px 8px;
+}
+
+.faq .ui-accordion .ui-icon{
+    background-image: none;
+    background-position: 0;
+    width: 32px;
+    height: 48px;
+    text-indent: 0px;
+    position: absolute;
+    right: 25px;
+    top: 26px;
+}
+
+.faq .ui-accordion .ui-icon:before{
+font-weight: 900;
+font-family: "Font Awesome 6 Free";
+content: "\2b";
+font-size: 32px;
+display: inline-block;
+transition: 0.5s;
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:before{
+    transform: rotate(360deg);
+}
+
+/*
+.ui-accordion .ui-accordion-content {
+    min-height: 0px;
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+footer{
+    text-align: center; background-color:#000000; padding-top: 69px 0 75px
+}
+
+.container_footer{
+    max-width: 564px;
+    margin: auto;
+    padding-top: 69px;
+    box-sizing: border-box;
+    
+}
+
+.box{
+    max-width: 564px;
+    margin: auto;
+    font-family: "Vollkorn", serif;
+    
+}
+
+.lbl{
+    display: none;
+}
+
+.inpt_name{
+    font-family: 'Vollkorn', serif;
+    padding-left: 31px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.18);
+    box-sizing: border-box;
+    resize: none;
+    border: none;
+    height: 57px;
+    color: #FFF;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 22px;
+}
+
+.inpt_email{
+    padding-left: 30px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.20);
+    box-sizing: border-box;
+    border: none;
+    resize: none;
+    height: 57px;
+    color: #FFF;
+    font-family: "Vollkorn", serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 22px;
+}
+
+.inpt_budget{
+    background-color: rgba(255, 255, 255, 0.18); 
+    box-sizing: border-box; 
+    border: none;
+    resize: none; 
+    height: 57px; 
+    padding-left: 31px; 
+    width: 100%; 
+    color:#FFF;
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 22px;
+}
+.lbl{
+    display: none;
+}
+.comment{
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400px;
+    max-width: 564px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.20);
+    box-sizing: border-box; 
+    resize: none; 
+    border: none; 
+    padding-left: 31px; 
+    width: 100%; 
+    color: #FFF; 
+    height: 127px; 
+    padding-top:  17px;
+    padding-right: 379px 88px 31px;
+    line-height: 22px;
+}
+
+.btn{
+    margin: 22px; text-align: center; padding-top: 15px 60px 15px 60px;
+    border: solid 1px; 
+    resize: none; 
+    color: #8BCAC3; 
+    height: 53px; 
+    width: 210px; 
+    background-color: transparent;
+    text-align: center;
+    font-family: 'Vollkorn', serif;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 400px;
+    line-height: 22px;
+    
+}
+
+.container_footer .btn:hover{
+    transform: rotate(360deg);
+    transition: 5s;
+    background-color: rgb(41, 87, 41);
+}
+p{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: "Vollkorn", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 22px; padding-bottom: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-input-placeholder {
+    font-family: "Montserrat" serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
+::-moz-placeholder{
+    font-family: "Montserrat" serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}/* Firefox 19+ */
+:-moz-placeholder{
+    font-family: "Montserrat" serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}/* Firefox 18- */
+:-ms-input-placeholder{
+    font-family: "Montserrat" serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+}
